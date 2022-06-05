@@ -1,0 +1,24 @@
+﻿@using AspNetCoreIdentity.Extensions
+@{
+	ViewData["Title"] = "Usuário Autorizado";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Usuário Autorizado.</p>
+
+@{
+	if (this.IfClaim("Produtos", "Adicionar"))
+	{
+		<p>Você só verá isso se tiver permissão de adicionar!</p>
+	}
+}
+
+<div>
+	@Html.ActionLink("Secret", "Secret").IfClaimShow(Context , "Produtos", "Adicionar")
+</div>
+
+<div>
+	<br />
+	<a href="#" class="btn btn-danger @Html.Raw(this.IfClaimShow("Produtos", "Adiciofdfnar" ))">Excluir</a>
+</div>
+

@@ -1,4 +1,5 @@
-﻿using AspNetCoreIdentity.Models;
+﻿using AspNetCoreIdentity.Extensions;
+using AspNetCoreIdentity.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -34,6 +35,12 @@ namespace AspNetCoreIdentity.Controllers
 
         [Authorize(Policy = "PodeEscrever")] // Declarando a permissão de  usuário
         public IActionResult SecretClaimGravar()
+        {
+            return View();
+        }
+
+        [ClaimsAuthorize("Produtos", "Ler")] // Declarando a permissão de  usuário customizada
+        public IActionResult ClaimsCustom()
         {
             return View();
         }
