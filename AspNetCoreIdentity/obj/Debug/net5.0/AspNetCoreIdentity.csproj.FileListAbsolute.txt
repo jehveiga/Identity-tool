@@ -164,3 +164,5 @@ C:\Users\Jeh\source\repos\Cursos-Desenvolvedor_io\Dominando_AspNetCore\AspNetCor
 C:\Users\Jeh\source\repos\Cursos-Desenvolvedor_io\Dominando_AspNetCore\AspNetCoreIdentity\AspNetCoreIdentity\obj\Debug\net5.0\Razor\Views\Home\Secret.cshtml.g.cs
 C:\Users\Jeh\source\repos\Cursos-Desenvolvedor_io\Dominando_AspNetCore\AspNetCoreIdentity\AspNetCoreIdentity\obj\Debug\net5.0\Razor\Views\Home\SecretClaimGravar.cshtml.g.cs
 C:\Users\Jeh\source\repos\Cursos-Desenvolvedor_io\Dominando_AspNetCore\AspNetCoreIdentity\AspNetCoreIdentity\obj\Debug\net5.0\Razor\Views\Home\ClaimsCustom.cshtml.g.cs
+C:\Users\Jeh\source\repos\Cursos-Desenvolvedor_io\Dominando_AspNetCore\AspNetCoreIdentity\AspNetCoreIdentity\bin\Debug\net5.0\appsettingsProduction.json
+C:\Users\Jeh\source\repos\Cursos-Desenvolvedor_io\Dominando_AspNetCore\AspNetCoreIdentity\AspNetCoreIdentity\bin\Debug\net5.0\appsettingsStaging.json
